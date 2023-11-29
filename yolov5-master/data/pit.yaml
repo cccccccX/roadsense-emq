@@ -1,0 +1,14 @@
+path: D:\yolov5-3.1\dataset\pit
+train: dataset/pit/images/train
+val: dataset/pit/images/val
+test: dataset/pit/images/test
+
+nc: 1
+names: ['pothole']
+
+#roboflow:
+#  workspace: raj-dalsaniya
+#  project: pothole-detection-isju5
+#  version: 2
+#  license: Private
+#  url: https://app.roboflow.com/raj-dalsaniya/pothole-detection-isju5/2
