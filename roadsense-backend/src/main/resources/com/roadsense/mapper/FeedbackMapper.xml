@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roadsense.mapper.FeedbackMapper">
+
+    <resultMap id="BaseResultMap" type="com.roadsense.pojo.Feedback">
+            <id property="fbackId" column="fback_id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="fbackImg" column="fback_img" jdbcType="VARCHAR"/>
+            <result property="fbackTime" column="fback_time" jdbcType="TIMESTAMP"/>
+            <result property="verifyState" column="verify_state" jdbcType="VARCHAR"/>
+            <result property="pitId" column="pit_id" jdbcType="BIGINT"/>
+            <result property="desInfo" column="des_info" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+</mapper>
